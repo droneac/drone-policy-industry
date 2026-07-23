@@ -16,15 +16,12 @@ GitHub Pages.
 
 ## Custom Domain
 
-For a custom domain such as `www.drone-x.org`, keep this line in
-`.github/workflows/deploy-github-pages.yml`:
+For a custom domain such as `www.drone-x.org`, set the custom domain in
+`Settings` > `Pages` and configure the DNS record at your domain provider.
 
-```sh
-GITHUB_PAGES_BASE=/ npm run build:github-pages
-```
-
-Then set the custom domain in `Settings` > `Pages` and configure the DNS record
-at your domain provider.
+This package uses relative asset paths, so it works both at a GitHub Pages
+project URL such as `https://droneac.github.io/drone-policy-industry/` and at a
+custom domain such as `https://www.drone-x.org/`.
 
 This package already includes `github-pages/CNAME` with:
 
@@ -38,7 +35,7 @@ If you use a different domain later, change that file before deploying.
 
 ```sh
 npm ci
-GITHUB_PAGES_BASE=/ npm run build:github-pages
+npm run build:github-pages
 ```
 
 The static files will be created in `github-pages-dist`.
