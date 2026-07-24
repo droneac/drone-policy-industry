@@ -415,6 +415,21 @@ const complianceKo: Record<string, ComplianceProfile> = {
         href: "https://portal.caa.com.gh/",
         note: "GCAA 로그인형 민원·신청 포털입니다.",
       },
+      {
+        label: "가나형 RPAS 교육·자격시험 관리체계 구축안 v3 (PDF)",
+        href: "resources/ghana/ghana-rpas-education-qualification-management-framework-kr-v3.pdf",
+        note: "가나형 RPAS 교육, 자격시험, 관리체계 구축을 위한 한글 제안서입니다.",
+      },
+      {
+        label: "가나형 RPAS 실기시험·반경 기반 자동채점 인포그래픽",
+        href: "resources/ghana/ghana-rpas-practical-test-course-autoscoring-infographic-kr-v3.png",
+        note: "GCAA 중량분류를 반영한 8자 비행 코스와 RTK 기반 자동채점 기준 도식입니다.",
+      },
+      {
+        label: "Ghana RPAS Digital Assessment Framework Proposal (EN PDF)",
+        href: "resources/ghana/ghana-rpas-digital-assessment-framework-en-v1.2.pdf",
+        note: "English proposal for RPAS digital assessment, qualification, and management framework.",
+      },
     ],
   },
   japan: {
@@ -622,6 +637,21 @@ const complianceEn: Record<string, ComplianceProfile> = {
         href: "https://portal.caa.com.gh/",
         note: "Login-based GCAA application portal.",
       },
+      {
+        label: "Ghana RPAS Digital Assessment Framework Proposal (EN PDF)",
+        href: "resources/ghana/ghana-rpas-digital-assessment-framework-en-v1.2.pdf",
+        note: "English proposal for RPAS digital assessment, qualification, and management framework.",
+      },
+      {
+        label: "Ghana RPAS Practical Test Auto-Scoring Infographic (KR)",
+        href: "resources/ghana/ghana-rpas-practical-test-course-autoscoring-infographic-kr-v3.png",
+        note: "Korean infographic for the figure-eight practical course and RTK-based scoring concept.",
+      },
+      {
+        label: "Ghana RPAS Education and Qualification Framework (KR PDF)",
+        href: "resources/ghana/ghana-rpas-education-qualification-management-framework-kr-v3.pdf",
+        note: "Korean proposal for Ghana's RPAS education, qualification test, and management system.",
+      },
     ],
   },
   japan: {
@@ -779,7 +809,15 @@ const classificationKo: Record<string, ClassificationProfile> = {
     pilot: "RPAS 안전교육 수료가 등록 전제조건으로 제시되며, RPAS Pilot Licence, Prospective Commercial Operator, Maintenance Engineer 등 신청 항목이 분리되어 있습니다.",
     aircraft: "수입, 사용, BVLOS·400ft 초과 운용, 판매 승인, 소유권 변경, 수출, 말소, 중복증명서 등 장비 생애주기 신청이 구분됩니다.",
     note: "가나는 등급명보다 RPAS 신청 유형과 교육수료 기반 관리가 더 뚜렷합니다.",
-    links: [{ label: "GCAA RPAS Online Safety Training", href: "https://www.gcaa.com.gh/dexam/course/rpas-online-course/" }, { label: "GCAA RPAS Resources", href: "https://www.gcaa.com.gh/web/rpas-resources/" }],
+    links: [
+      { label: "GCAA RPAS Online Safety Training", href: "https://www.gcaa.com.gh/dexam/course/rpas-online-course/" },
+      { label: "GCAA RPAS Resources", href: "https://www.gcaa.com.gh/web/rpas-resources/" },
+      { label: "가나형 RPAS 교육·자격시험 관리체계 구축안 v3 (PDF)", href: "resources/ghana/ghana-rpas-education-qualification-management-framework-kr-v3.pdf" },
+      { label: "가나형 RPAS 교육·자격시험 관리체계 구축안 v3 (DOCX)", href: "resources/ghana/ghana-rpas-education-qualification-management-framework-kr-v3.docx" },
+      { label: "Ghana RPAS Digital Assessment Framework Proposal (EN PDF)", href: "resources/ghana/ghana-rpas-digital-assessment-framework-en-v1.2.pdf" },
+      { label: "Ghana RPAS Digital Assessment Framework Proposal (EN DOCX)", href: "resources/ghana/ghana-rpas-digital-assessment-framework-en-v1.2.docx" },
+      { label: "가나형 RPAS 실기시험 자동채점 인포그래픽", href: "resources/ghana/ghana-rpas-practical-test-course-autoscoring-infographic-kr-v3.png" },
+    ],
   },
   japan: {
     pilot: "무인항공기 조종자 기능증명은 Class 1과 Class 2로 구분됩니다. Class 1은 Level 4 등 고난도 운항과 연결되고, Class 2는 일반적·저위험 운항 기반입니다.",
@@ -854,7 +892,15 @@ const classificationEn: Record<string, ClassificationProfile> = {
     pilot: "RPAS safety training is a prerequisite for registration, with separate applications for RPAS pilot licence, prospective commercial operator, and maintenance engineer.",
     aircraft: "Import, use, BVLOS or above-400-ft operation, sale authorization, ownership transfer, export, deregistration, duplicate certificate, and amendment applications are separated.",
     note: "Ghana's public structure is clearer by RPAS application type than by a simple aircraft class label.",
-    links: [{ label: "GCAA RPAS Online Safety Training", href: "https://www.gcaa.com.gh/dexam/course/rpas-online-course/" }, { label: "GCAA RPAS Resources", href: "https://www.gcaa.com.gh/web/rpas-resources/" }],
+    links: [
+      { label: "GCAA RPAS Online Safety Training", href: "https://www.gcaa.com.gh/dexam/course/rpas-online-course/" },
+      { label: "GCAA RPAS Resources", href: "https://www.gcaa.com.gh/web/rpas-resources/" },
+      { label: "Ghana RPAS Digital Assessment Framework Proposal (EN PDF)", href: "resources/ghana/ghana-rpas-digital-assessment-framework-en-v1.2.pdf" },
+      { label: "Ghana RPAS Digital Assessment Framework Proposal (EN DOCX)", href: "resources/ghana/ghana-rpas-digital-assessment-framework-en-v1.2.docx" },
+      { label: "Ghana RPAS Education and Qualification Framework (KR PDF)", href: "resources/ghana/ghana-rpas-education-qualification-management-framework-kr-v3.pdf" },
+      { label: "Ghana RPAS Education and Qualification Framework (KR DOCX)", href: "resources/ghana/ghana-rpas-education-qualification-management-framework-kr-v3.docx" },
+      { label: "Ghana RPAS Practical Test Auto-Scoring Infographic (KR)", href: "resources/ghana/ghana-rpas-practical-test-course-autoscoring-infographic-kr-v3.png" },
+    ],
   },
   japan: {
     pilot: "Japan's UA pilot certificate is divided into Class 1 and Class 2. Class 1 connects to advanced operations such as Level 4; Class 2 supports standard lower-risk operations.",
@@ -1403,6 +1449,26 @@ const countries: Country[] = [
         label: "가나 보건부 의료드론 배송망",
         href: "https://moh.gov.gh/ghanas-medical-drone-delivery-system-takes-off/",
       },
+      {
+        label: "가나형 RPAS 교육·자격시험 관리체계 구축안 v3 (PDF)",
+        href: "resources/ghana/ghana-rpas-education-qualification-management-framework-kr-v3.pdf",
+      },
+      {
+        label: "가나형 RPAS 교육·자격시험 관리체계 구축안 v3 (DOCX)",
+        href: "resources/ghana/ghana-rpas-education-qualification-management-framework-kr-v3.docx",
+      },
+      {
+        label: "Ghana RPAS Digital Assessment Framework Proposal (EN PDF)",
+        href: "resources/ghana/ghana-rpas-digital-assessment-framework-en-v1.2.pdf",
+      },
+      {
+        label: "Ghana RPAS Digital Assessment Framework Proposal (EN DOCX)",
+        href: "resources/ghana/ghana-rpas-digital-assessment-framework-en-v1.2.docx",
+      },
+      {
+        label: "가나형 RPAS 실기시험 자동채점 인포그래픽",
+        href: "resources/ghana/ghana-rpas-practical-test-course-autoscoring-infographic-kr-v3.png",
+      },
     ],
   },
   {
@@ -1781,7 +1847,16 @@ const countryEn: Record<string, Omit<Country, "id" | "flag" | "maturity" | "rest
     signal: "Ghana is a public-service application leader in Africa, especially in medical drone logistics.",
     tags: ["GCAA", "RPAS registration", "Medical logistics", "Public service"],
     useCases: ["Medical supply delivery", "Public health", "Remote-area logistics", "Public safety"],
-    sourceLabels: ["GCAA RPAS and Drone Guidance", "GCAA RPAS Online Training Portal", "Ghana Ministry of Health Medical Drone Network"],
+    sourceLabels: [
+      "GCAA RPAS and Drone Guidance",
+      "GCAA RPAS Online Training Portal",
+      "Ghana Ministry of Health Medical Drone Network",
+      "Ghana RPAS Education and Qualification Framework (KR PDF)",
+      "Ghana RPAS Education and Qualification Framework (KR DOCX)",
+      "Ghana RPAS Digital Assessment Framework Proposal (EN PDF)",
+      "Ghana RPAS Digital Assessment Framework Proposal (EN DOCX)",
+      "Ghana RPAS Practical Test Auto-Scoring Infographic (KR)",
+    ],
   },
   japan: {
     name: "Japan",
